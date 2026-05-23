@@ -1,4 +1,5 @@
 # Noise-Referenced Stability Feature Selection (v0.1.0)
+[![DOI](https://zenodo.org/badge/1136348057.svg)](https://doi.org/10.5281/zenodo.20358453)
 
 ### Summary
 
