@@ -166,3 +166,11 @@ The dataset therefore acts as a controlled sandbox that mirrors the kinds of pat
 ### Bottom Line
 
 Noise-Referenced Stability Feature Selection provides a transparent, statistically cautious way to extract meaningful signal from noisy tabular data—prioritizing **reliability and interpretability** over raw predictive performance.
+
+---
+
+### License
+
+This project is released under the Apache License 2.0.
+
+The intent is to support open exploration, reproducibility, and extension of noise-referenced feature-selection workflows while preserving a permissive license structure suitable for research, education, and applied development.
