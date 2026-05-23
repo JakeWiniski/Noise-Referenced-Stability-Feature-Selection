@@ -6,6 +6,43 @@
 
 This workflow is designed for applied R&D settings—process data, experimental studies, materials science, and sensor analytics—where datasets are often noisy, modest in size, and rich in engineered but redundant predictors.
 
+## Novelty and Scope
+
+This repository presents an applied feature-selection workflow for noisy experimental and process datasets. It does **not** claim to introduce a fundamentally new statistical theory or algorithmic class.
+
+Related ideas already exist across methods such as:
+
+- stability selection
+- permutation importance
+- null importance testing
+- bootstrap feature selection
+- Boruta-style shadow-feature methods
+- model-based variable screening
+
+The contribution of this project is an **applied synthesis**: a transparent, reproducible workflow that combines bootstrap stability, permutation importance, and an explicit noise reference into a practical diagnostic pipeline.
+
+The method is intended to help answer applied questions such as:
+
+- Which predictors are consistently stronger than noise?
+- Which features are likely to be redundant proxies?
+- How stable are selected predictors across resampling?
+- Is the target meaningfully explainable with the available features?
+- Which relationships are useful enough to support further experimentation?
+
+This repository should be interpreted as:
+
+- a practical workflow
+- a technical prototype
+- a diagnostic feature-selection tool
+- a foundation for further refinement and benchmarking
+
+It should not currently be interpreted as:
+
+- a validated production package
+- a causal inference method
+- a guarantee of feature importance under all model classes
+- a claim of novelty over existing feature-selection literature
+- 
 ---
 
 ## Technical Walkthrough
