@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this workflow or software, please cite it using the metadata below."
+title: "Noise-Referenced Stability Feature Selection"
+authors:
+  - family-names: "Winiski"
+    given-names: "Jake"
+doi: 10.5281/zenodo.20358454
+url: "https://github.com/JakeWiniski/Noise-Referenced-Stability-Feature-Selection"
+date-released: 2026-05-23
+version: "0.1.0"
+license: "Apache-2.0"
+abstract: >-
+  Initial proof-of-concept release of Noise-Referenced Stability Feature
+  Selection, a practical workflow for identifying reliable predictors in
+  noisy, small-to-moderate experimental datasets where interpretability
+  matters. The workflow combines bootstrap resampling, Random Forest
+  permutation importance, and an explicit shuffled-target noise baseline
+  to distinguish stable signal from spurious association.
+keywords:
+  - feature selection
+  - stability selection
+  - permutation importance
+  - noise baseline
+  - bootstrap
+  - machine learning
+  - experimental data
+  - process analytics
+  - interpretable machine learning
+  - statistical learning
+repository-code: "https://github.com/JakeWiniski/Noise-Referenced-Stability-Feature-Selection"
+type: software
