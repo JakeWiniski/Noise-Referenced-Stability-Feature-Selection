@@ -175,3 +175,9 @@ Noise-Referenced Stability Feature Selection provides a transparent, statistical
 This project is released under the Apache License 2.0.
 
 The intent is to support open exploration, reproducibility, and extension of noise-referenced feature-selection workflows while preserving a permissive license structure suitable for research, education, and applied development.
+
+---
+
+## AI Use Disclosure
+
+This project was developed with assistance from generative AI and coding-agent tools. AI was used for coding, debugging, and development support; analytical design, validation, interpretation, and final decisions were performed by the author.
